@@ -1,0 +1,47 @@
+
+ .trusted-by-container {
+    /* background-color: rgba(0, 0, 0, 58.2);*/
+     background-color:#0a0f1c;
+    color: #ffffff;     /*Text color */
+     padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -29px;
+    margin-right: -29px;
+  }
+  
+  .trusted-by-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:white;
+    margin-left:-11px;
+  }  
+  
+   
+  .trusted-by-content p {
+    font-size: 1rem;
+    color: #cccccc; /* Lighter text color */
+    margin-bottom: 30px;
+  }
+  
+  .trusted-by-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .trusted-by-logos img {
+    width: 120px; /* Adjust logo size */
+     height: auto;
+    filter: grayscale(100%); /* Makes logos grayscale */
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .trusted-by-logos img:hover {
+    filter: grayscale(0%); /* Full color on hover */
+  
+
+  }

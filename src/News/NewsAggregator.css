@@ -1,0 +1,73 @@
+/* General Page Styling */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #203a43;
+    color: white;
+  }
+.news-container {
+    background-color: #121212;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+.news-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff9800;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* News Card Styling */
+.news-card {
+    margin-bottom: 15px;
+    background-color: #1e1e1e;
+    color: white;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.news-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(255, 152, 0, 0.5);
+}
+
+/* News Title Links */
+.news-title a {
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.news-title a:hover {
+    color: #ffcc80;
+}
+
+/* Source and Date */
+.news-meta {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .news-title {
+        font-size: 1.5rem;
+    }
+
+    .search-bar {
+        font-size: 0.9rem;
+    }
+}

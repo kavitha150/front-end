@@ -1,0 +1,106 @@
+/* Header Section */
+
+
+
+
+/* LoginSignup.css */
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* User Icon Button Styling */
+.user-icon {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.user-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Form Container Styling */
+.login-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Title Styling */
+.login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Form Input Styling */
+.login-form .MuiTextField-root {
+    margin-bottom: 20px;
+}
+
+/* Button Styling */
+.login-button {
+    background-color: #1976d2 !important;
+    color: white !important;
+    font-weight: bold;
+    text-transform: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background-color: #115293 !important;
+}
+
+/* Toggle Text Styling */
+.toggle-text {
+    text-align: center;
+    color: #1976d2;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.toggle-text:hover {
+    color: #115293;
+}
+
+/* Close Text Styling */
+.close-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #999999;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.close-text:hover {
+    color: #666666;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

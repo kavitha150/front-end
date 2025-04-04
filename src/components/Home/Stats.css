@@ -1,0 +1,31 @@
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00bfa5; /* Teal color */
+    padding: 30px;
+    color: white;
+    text-align: center;
+    height: 75px;
+    margin-left: -29px;
+    margin-right: -29px;
+  }
+  
+  .stat-box {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .stat-box h2 {
+    
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+  }
+  
+  .stat-box p {
+    font-size: 17px;
+    color:black;
+    margin-top: -13px;
+  }
+  
